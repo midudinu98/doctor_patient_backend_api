@@ -39,9 +39,9 @@ doctor_patient_backend<br>
 │   ├── __init__.py<br>
 │   │<br>
 │   ├── auth<br>
-│   │   ├── __init__.py<br>
 │   │   ├── security.py<br>
 │   │   └── dependencies.py<br>
+│   │   
 │   │<br>
 │   ├── models<br>
 │   │   ├── __init__.py<br>
