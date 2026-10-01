@@ -109,9 +109,9 @@ Add the following to .gitignore:
 7. .vscode/
 8. .idea/
 
-#Run the Application
+# Run the Application
 
-##Start the FastAPI server:
+## Start the FastAPI server:
 **uvicorn app.main:app --reload**
 
 ##The application will run at:
