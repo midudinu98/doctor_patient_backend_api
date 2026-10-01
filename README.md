@@ -114,7 +114,7 @@ Add the following to .gitignore:
 ## Start the FastAPI server:
 **uvicorn app.main:app --reload**
 
-##The application will run at:
+## The application will run at:
 **http://127.0.0.1:8000**
 
 # API Documentation
