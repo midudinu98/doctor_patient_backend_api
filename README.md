@@ -70,5 +70,60 @@ doctor_patient_backend<br>
 ├── .gitignore<br>
 ├── requirements.txt<br>
 ├── README.md<br>
-└── doctor_patient.db<br>   
+└── doctor_patient.db<br> 
+
+#  Installation
+
+## 1. Create the Project
+### Open a terminal and move to the project directory:
+ **cd doctor_patient_backend**
+
+## 2. Create Virtual Environment
+** python -m venv venv
+ Activate on Windows
+ venv\Scripts\activate**
+
+## 3. Install Dependencies
+**pip install -r requirements.txt**
+
+### If requirements.txt does not exist, install the packages manually:
+** pip install fastapi uvicorn sqlalchemy pydantic-settings python-dotenv python-jose[cryptography] passlib[bcrypt] email-validator**
+ 
+# Environment Variables
+
+## Create a .env file in the project root.
+**DATABASE_URL=sqlite:///./doctor_patient.db
+SECRET_KEY=your-secret-key
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30**
+
+Important
+Do not commit the .env file to GitHub.
+Add the following to .gitignore:
+1. venv/
+2. __pycache__/
+3. *.pyc
+4. .env
+5. *.db
+6. .pytest_cache/
+7. .vscode/
+8. .idea/
+
+#Run the Application
+
+##Start the FastAPI server:
+**uvicorn app.main:app --reload**
+
+##The application will run at:
+**http://127.0.0.1:8000**
+
+# API Documentation
+
+##  FastAPI provides automatic interactive documentation.
+**Swagger UI
+http://127.0.0.1:8000/docs**
+
+## FastAPI provides automatic interactive documentation.
+**Swagger UI
+http://127.0.0.1:8000/docs**
 
