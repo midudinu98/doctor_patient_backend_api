@@ -87,7 +87,7 @@ doctor_patient_backend<br>
 **pip install -r requirements.txt**
 
 ### If requirements.txt does not exist, install the packages manually:
-** pip install fastapi uvicorn sqlalchemy pydantic-settings python-dotenv python-jose[cryptography] passlib[bcrypt] email-validator**
+**pip install fastapi uvicorn sqlalchemy pydantic-settings python-dotenv python-jose[cryptography] passlib[bcrypt] email-validator**
  
 # Environment Variables
 
