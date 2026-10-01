@@ -51,21 +51,16 @@ doctor_patient_backend<br>
 │   │   └── doctor_patient.py<br>
 │   │<br>
 │   ├── schemas<br>
-│   │   ├── __init__.py<br>
 │   │   ├── auth.py<br>
 │   │   ├── doctor.py<br>
 │   │   ├── patient.py<br>
 │   │   └── assignment.py<br>
 │   │<br>
 │   ├── routers<br>
-│   │   ├── __init__.py/<br>
 │   │   ├── auth.py/<br>
 │   │   ├── doctors.py/<br>
 │   │   ├── patients.py/<br>
 │   │   └── assignment.py/<br>
-│   │<br>
-│   ├── services<br>
-│   │   └── __init__.py<br>
 │   │<br>
 │   ├── config.py<br>
 │   ├── database.py<br>
